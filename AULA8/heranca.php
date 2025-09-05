@@ -40,3 +40,11 @@ class Escola extends Imovel {
         $this->seguimento = $seguimento;
     }
 }
+
+Class Comercio extends Imovel {
+    private $tamanho;
+    public function __construct($categoria, $nComodos, $valor, $estadoConservacao, $tamanho) {
+        parent::__construct($categoria, $nComodos, $valor, $estadoConservacao);
+        $this->tamanho = $tamanho;
+    }
+}

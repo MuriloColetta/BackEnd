@@ -1,5 +1,4 @@
 <?php
-
 //Notificadores d acess:
 //Existem 3 tipos: Public, Private e Protected
 // Public NomeDoAtributo: métodos e eatributos públicos
@@ -50,12 +49,30 @@ class Circulo implements Forma {
     }
 }
 
+echo number_format(3.14159265, 2);
+
+class Pentagono implements Forma {
+    public$apotema;
+    
+    public function calcularArea($lado){
+        $area = (($lado * 5) * $this->apotema) / 2;
+        return $area;
+    }
+}
+
+class Hexagono implements Forma {
+    public function calcularArea($lado){
+        $area =(3 * sqrt(3) * ($lado ** 2)) / 2;
+        return $area;
+    }
+}
+
 $square = new Quadrado();
 $circle = new Circulo();
+$pentagono = new Pentagono();
+$hexagono = new Hexagono();
 
 echo "Área do quadrado: ".$square->calcularArea(readline("\nDigite a medida do lado do qiadrado:"))."\n";
 echo "Área do círculo: ".$circle->calcularArea(readline("\nDigite a medida do raio do círculo:"))."\n";
-
-class Pentagono implements Forma {
-    public function calcularArea($lado,)
-}
+echo "\nÁrea do Pentágono: ".$pentagono->calcularArea(readline("\nDigite a medida do lado do pentágono: "), readline("\nDigite a medida da apotema do pentágono: "));
+echo "\nÁrea do Hexágono: ".$hexagono->calcularArea(readline("\nDigite a medida do lado do hexágono: "), readline("\nDigite a medida da apotema do hexágono: "));

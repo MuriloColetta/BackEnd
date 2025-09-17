@@ -1,9 +1,7 @@
 <?php
 // Polimorfismo:
 
-// O termo Polimorfismo significa "várias formas". Associando isso a Programação Orientada a Objetos, o conceito se trata de várias classes e suas instâncias (objetos)
-// respondendo a um método de formas diferentes. No exemplo do Interface da AULA9, temos um método calcularArea() que responde de forma diferente à classe Circulo. Isso
-// quer dizer que a função é a mesma - calcular a área de forma geométrica - mas a operação muda de acordo com a figura.
+// O termo Polimorfismo significa "várias formas". Associando isso a Programação Orientada a Objetos, o conceito se trata de várias classes e suas instâncias (objetos) respondendo a um método de formas diferentes. No exemplo do Interface da AULA9, temos um método calcularArea() que responde de forma diferente à classe Circulo. Isso quer dizer que a função é a mesma - calcular a área de forma geométrica - mas a operação muda de acordo com a figura.
 
 namespace AULA10;
 

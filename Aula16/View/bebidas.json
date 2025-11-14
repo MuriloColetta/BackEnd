@@ -1,0 +1,30 @@
+{
+    "Água mineral": {
+        "nome": "Água mineral",
+        "categoria": "Água",
+        "volume": "550ml",
+        "valor": "3.50",
+        "qtde": "200"
+    },
+    "Guarana": {
+        "nome": "Guarana",
+        "categoria": "Refrigerante",
+        "volume": "2L",
+        "valor": "15.00",
+        "qtde": "170"
+    },
+    "Água com gás": {
+        "nome": "Água com gás",
+        "categoria": "Água",
+        "volume": "5050",
+        "valor": "4.00",
+        "qtde": "200"
+    },
+    "Skol": {
+        "nome": "Skol",
+        "categoria": "Cerveja",
+        "volume": "400ml",
+        "valor": "7.00",
+        "qtde": "150"
+    }
+}
